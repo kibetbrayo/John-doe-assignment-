@@ -1,0 +1,32 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: wheat;
+}
+a{
+    text-decoration:none ;
+}
+.nav bar{
+    display: flex ;
+   
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    display: flex ;
+    box-shadow: 5px 10px 18px #5d791d;
+    padding: 10x;
+    border: 1px solid;
+    float:flex;
+}
+
+nav ul li{
+    padding: right 10px; 
+    
+}
+li{
+    float: right;
+    padding: 10px;
+    background-color: white;
+    
+}
