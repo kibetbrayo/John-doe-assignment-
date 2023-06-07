@@ -4,51 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="stles.css">
+    <title>Document</title>
+    
 </head>
 <body>
-    <div id="nav bar"> 
-        <!--logo-->
-        
-        <div id="logo">
-            <a href="/">john Doe/ </a>
-        
-        <!--nav links-->
+    <div class="navbar"> 
+        <div class="logo">
+            <a href="/" class="head">John Doe</a>
+        </div>
         <nav>
-            <ul>
-                <li>
-                    <a href="">ABOUT</a>
-                </li>
-                <li><a href="">SERVICE</a>
-                </li>
-                <li><a href="">SKILLS</a>
-                </li>
-                <li><a href="">EXPERIENCE</a>
-                </li>
-                <li><a href="">PROJECT</a>
-                </li>
-                <li><a href="">CONTACT</a>
-                </li>
-            </ul>
+            <ul class="nav-links">
+                <a href="/"><li>ABOUT</li></a>
+                <a href="/"><li>SERVICES</li></a>
+                <a href="/"><li>SKILLS</li></a>
+                <a href="/"><li>EXPERIENCE</li></a>
+                <a href="/"><li>PROJECTS</li></a>
+                <a href="/"><li>CONTACT</li></a>
+            </ul>  
+         
         </nav>
-    <div>
     </div>
-        <h1>Hi, i'm John Doe <br>
+    <section class="body">
+        <div class="details">
+        <h1 class="title">
+            Hi, i'm John Doe <br>
             Fullstack Developer
         </h1>
         <P>Experience full stack Developer with a demonstrated history of 
             working <br>  in the internet industry.Building Web applications 
             with Angular,PHP,<br>
             ,Phython,Django,Flask MySQL/Postgres 
-            and some other cool libraries and frameworks </P>
-            <button>view Resume</button>
-            <button>Contact Me</button>
-            <a href=""><img src="./logo/icons8-github.svg"alt=""></a>
-            <a href=""><img src="./logo/icons8-linkedin.svg" alt=""></a>
-            <a href=""><img src="./logo/icons8-twitter.svg" alt=""></a>
-            <a href=""><img src="./logo/icons8-google.svg" alt=""></a>
+            and some other cool libraries and frameworks. 
+        </P>
+        <div class="buttons">
+            <button><a href="/">View Resume</a>
+            </button>
+            <button><a href="/">Contact Me</a>
+            </button>
         </div>
+        <div class="socials">
+            <ul class="icons">
+                <a href=""><img src="./logo/icons8-github.svg"alt=""></a>
+                <a href=""><img src="./logo/icons8-linkedin.svg" alt=""></a>
+                <a href=""><img src="./logo/icons8-twitter.svg" alt=""></a>
+                <a href=""><img src="./logo/icons8-google.svg" alt=""></a> 
+            </ul>
+            
+        </div>
+        <div class="image">
+            <img src="" alt="">
+        </div>
+    </section>
     </body>
     </html>
     
